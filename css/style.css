@@ -1,0 +1,474 @@
+@charset "UTF-8";
+.ec-table-divider td {
+    padding: 16px 60px!important;
+}
+body {
+  font-family: "Hiragino Maru Gothic W4 JIS2004", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6em;
+}
+
+.uk-light {
+  color: #fff !important;
+}
+
+.desc {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+  line-height: 1.6em;
+  font-family: "Hiragino Maru Gothic W4 JIS2004", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ec-title1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 0 0 6px 0;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.ec-form {
+  background-color: #000;
+}
+
+.ec-form .ec-form-label {
+  font-size: 30px;
+}
+
+@media screen and (max-width:640px) {
+  .ec-title1 {
+    font-size: 1.9rem;
+    line-height: 1.6em;
+    font-weight: bold;
+    padding: 0 0 6px 0;
+    margin: 0;
+  }
+}
+
+/*Under Border */
+
+.ec-title2 h2 {
+  letter-spacing: .1em;
+}
+
+.ec-title2 h2, .ec-title2 p {
+  margin: 0;
+}
+
+.ec-border-text {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.ec-border-text:before {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  left: 50%;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #1A7CEE;
+  border-radius: 2px;
+}
+
+.ec-padding-bottom {
+  padding-bottom: 80px;
+}
+
+/* CARD */
+
+.ec-card-border {
+  border: 1px solid #c5c5c5;
+}
+
+.ec-card-area {}
+
+.ec-card-area h3, .ec-card-area p {
+  margin: 0;
+}
+
+.ec-card-style1 .desc {
+  margin-top: 60px;
+  line-height: 1.6em;
+}
+
+.ec-card-style1 .subtitle {
+  margin-bottom: 9px;
+}
+
+/*card*/
+
+.ec-padding-large-bottom {
+  padding-bottom: 60px;
+}
+
+.ec-service-area {}
+
+.ec-service-area hr {
+  margin: 0;
+  padding: 0;
+}
+
+.ec-margin-small {
+  margin: 12px 0;
+}
+
+.ec-divider {
+  border: 1px solid #fff !important;
+}
+
+.ec-text-b {
+  color: #335A9A;
+}
+
+.ec-service-area .ec-title {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin: 26px 0 -10px 0;
+  color: #335A9A;
+}
+
+.index-anzen {
+  background: url(../img/index_bg1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ec-slide-text {
+  width: 500px;
+}
+
+@media screen and (max-width:640px) {
+  .ec-padding_s {
+    padding: 0 16px;
+  }
+  .ec-slide-text {
+    width: 270px;
+  }
+}
+
+/* title */
+
+.ec-text-0 h2, .ec-text-0 p {
+  margin: 0;
+  text-shadow: 0 0 6px #213500;
+}
+
+.ec-text-min {
+  font-family: "游明朝", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "ＭＳ 明朝", serif;
+}
+
+.ec-list {
+  list-style-type: none;
+}
+
+.ec-list li a {
+  margin-right: 30px;
+}
+
+.ec-cover-header {}
+
+.ec-cover-header h2, .ec-cover-header p {
+  margin: 0;
+}
+
+.ec-cover-header h2 {
+  letter-spacing: .1em
+}
+
+/* cover */
+
+@media only screen and (min-width: 1200px) {
+  .ec-fixed {
+    background-attachment: fixed;
+  }
+}
+
+.ec-cover-header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+}
+
+@media screen and (max-width:640px) {
+  .ec-cover-header {
+    background-position: center;
+    background-attachment: scroll;
+  }
+  .ec-text-center-s {
+    text-align: center;
+  }
+  .ec-bottom-line-s {
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+.ec-dark {
+  background: rgba(34, 34, 34, .8);
+}
+
+.ec-dark-small {
+  background: rgba(34, 34, 34, .3);
+}
+
+.ec-light {
+  background: rgba(255, 255, 255, .8);
+}
+
+.ec-light-small {
+  background: rgba(255, 255, 255, .3);
+}
+
+.ec-blue {
+  background: rgba(71, 130, 187, .8);
+}
+
+.ec-blue-small {
+  background: rgba(71, 130, 187, .3);
+}
+
+/* Table */
+
+.ec-table-divider {}
+
+.ec-table-divider th {
+  border-bottom: 1px solid #164F92;
+  color: #222;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.ec-table-divider td {
+  border-bottom: 1px solid #ccc;
+}
+
+.ec-divider-h2 {
+  display: inline-block;
+  border-bottom: 2px solid #3a84df;
+  padding-bottom: 12px;
+}
+
+.ec-background-blue {
+  background: #164F92;
+}
+
+/*Google map*/
+
+.embed-container {
+  position: relative;
+  padding-bottom: 23%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+@media screen and (max-width:640px) {
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+}
+
+.ec-tec-top-text {
+  font-size: 22px;
+  line-height: 1.6em;
+  letter-spacing: 1px;
+  text-shadow: 0 0 6px #fff;
+}
+
+.whiteNoise {
+  background-color: #E1E6EC;
+  background-image: linear-gradient(-180deg, #E1E6EC 2%, #F0F4F7 96%), radial-gradient(at 50% 100%, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.5) 200%);
+  background-blend-mode: normal, color-burn;
+}
+
+.ec-kodawari {
+  text-shadow: 0 0 6px rgba(0, 0, 0, .08);
+}
+
+.ec-kodawari>i {}
+
+.ec-kodawari h3 {
+  margin: 12px 0 40px 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+.ec-kodawari p {
+  font-size: 18px;
+  line-height: 1.7em;
+}
+
+.ec-service-panel>a {
+  color: #222;
+}
+
+.ec-service-panel>a:hover {
+  text-decoration: none;
+}
+
+.ec-bg-white {
+  background-color: #fff;
+}
+
+.ec-container-small {
+  max-width: 600px !important;
+}
+.ec-container-normal {
+  max-width: 700px !important;
+}
+
+.ec-btn-width {
+  min-width: 100%;
+  line-height: 1.7em;
+  padding: 17px 0;
+}
+.ec-btn-red {
+  background-color: #8D1717!important;
+  color: #fff!important;
+}
+.ec-btn-red:hover,
+.ec-btn-red:active {
+  background-color: #8e3b3b!important;
+  color: #fff!important;
+}
+
+.ec-btn-darmblue {
+  background-color: #13345A!important;
+  color: #fff!important;
+}
+.ec-btn-darmblue:hover,
+.ec-btn-darmblue:active {
+  background-color: #0a1b2f!important;
+  color: #fff!important;
+}
+.ec-bg-cmt {
+  background-image: url(../img/cmt1.png);
+    background-position: 0% 67%;
+    background-repeat: no-repeat;
+}
+.ec-text-1 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.5em;
+}
+.ec-text-2 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.ec-text-2-0 {
+  font-weight: 400;
+  font-size: 20px!important;
+}
+@media screen and (max-width:640px){
+	.ec-bg-cmt {
+    background-image: none;
+  }
+  .ec-tec-top-text {
+    border-left:3px solid #1A458E;
+    padding-left: 10px;
+  }
+}
+.ec-circle-area {
+  /* background-color: #f1f1f1; */
+}
+/* .ec-oval {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #1A458E;
+  height: 100px;width: 100px;
+} */
+.circle {
+  color: white;
+  font-size: 19px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: #aacbf3;
+  border: 4px solid #bdd8f7;
+  box-shadow: inset 0 0 0 5px white;
+}
+@media screen and (max-width:640px){
+	.circle {
+    width: 130px;
+    height: 130px;
+  }
+}
+.ec-text-laser {
+  font-size: 21px;
+}
+.ec-button {
+  position: relative;
+  //display:block;
+  height: 45px;
+  width: 150px;
+  margin: 10px 7px;
+  padding: 5px 5px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #383736;
+  border: 2px #383736 solid;
+  border-radius: 4px;
+  text-transform: uppercase;
+  outline: 0;
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  cursor: pointer;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+
+.fill:hover {
+  color: whitesmoke;
+}
+
+.fill:before {
+  content: "";
+  position: absolute;
+  background: #383736;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.fill:hover:before {
+  top: 0;
+}
+.ec-modal-list {
+
+}
+.ec-modal-list li {
+
+}
+.ec-modal-list li a {
+  font-size: 15px!important;
+  color: #fff;
+  font-weight: normal;
+  line-height: 2;
+}
+.ec-gray {
+  border-top:1px solid #2D2D2D!important;
+}
+.ec-lead1 {
+  line-height: 1.8;
+}
